@@ -144,6 +144,11 @@ st.markdown("""
         box-shadow: 0 6px 12px rgba(255, 105, 180, 0.4);
         opacity: 0.9;
     }
+@media screen and (max-width: 600px) {
+    .fixed-footer {
+        display: none !important; /* スマホではフッター自体を非表示にする */
+    }
+}
 </style>
 """, unsafe_allow_html=True)
 
